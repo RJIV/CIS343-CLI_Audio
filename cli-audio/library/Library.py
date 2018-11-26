@@ -41,7 +41,6 @@ class Library:
                 parentView.stdscr.addstr(2,15, "                            ")
             except CLI_Audio_File_Exception:
                 index = 1
-                # print("Song not available")
 
             except:
                 parentView.stdscr.addstr(2,15, "Directory not Found!")
